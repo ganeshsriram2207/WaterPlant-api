@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CansAvailable_Servlet</servlet-name>
+  	<display-name>CansAvailable_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant.controller.CansAvailable_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login_Servlet</servlet-name>
+  	<display-name>Login_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant.controller.Login_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Register_Servlet</servlet-name>
+  	<display-name>Register_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant.controller.Register_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Reservecans_Servlet</servlet-name>
+  	<display-name>Reservecans_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant.controller.Reservecans_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Setavailable_Cans</servlet-name>
+  	<display-name>Setavailable_Cans</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.waterplant.controller.Setavailable_Cans</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CansAvailable_Servlet</servlet-name>
+  	<url-pattern>/CansAvailable_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login_Servlet</servlet-name>
+  	<url-pattern>/Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Register_Servlet</servlet-name>
+  	<url-pattern>/Register_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Reservecans_Servlet</servlet-name>
+  	<url-pattern>/Reservecans_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Setavailable_Cans</servlet-name>
+  	<url-pattern>/Setavailable_Cans</url-pattern>
+  </servlet-mapping>
+</web-app>
